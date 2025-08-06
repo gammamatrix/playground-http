@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Http\Requests\Concerns;
 
 /**
@@ -35,7 +37,7 @@ trait PaginationColumns
     }
 
     /**
-     * @param array<string, mixed> $rules
+     * @param  array<string, mixed>  $rules
      */
     public function rules_filters_columns(array &$rules): void
     {

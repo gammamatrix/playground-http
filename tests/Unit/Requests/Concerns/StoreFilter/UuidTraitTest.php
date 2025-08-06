@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -21,7 +22,7 @@ class UuidTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterUuid()
      */
-    public function test_filterUuid(): void
+    public function test_filter_uuid(): void
     {
         $instance = new StoreRequest;
 

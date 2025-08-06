@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Illuminate\Support\Carbon;
@@ -32,7 +33,7 @@ class DateTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterDate()
      */
-    public function test_filterDate(): void
+    public function test_filter_date(): void
     {
         $instance = new StoreRequest;
 
@@ -55,7 +56,7 @@ class DateTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterDateAsCarbon()
      */
-    public function test_filterDateAsCarbon(): void
+    public function test_filter_date_as_carbon(): void
     {
         $instance = new StoreRequest;
 

@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -22,7 +23,7 @@ class PhoneTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterPhone()
      */
-    public function test_filterPhone(): void
+    public function test_filter_phone(): void
     {
         $instance = new StoreRequest;
 

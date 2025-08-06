@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreContent;
 
 use Playground\Http\Requests\StoreRequest;
@@ -32,7 +33,7 @@ class TraitTest extends TestCase
         $this->assertSame($expected, $instance->exorcise($expected));
     }
 
-    public function test_getHtmlPurifier(): void
+    public function test_get_html_purifier(): void
     {
         $instance = new StoreRequest;
 
@@ -42,7 +43,7 @@ class TraitTest extends TestCase
         );
     }
 
-    public function test_getHtmlPurifier_with_iframes(): void
+    public function test_get_html_purifier_with_iframes(): void
     {
         $instance = new StoreRequest;
 
@@ -54,7 +55,7 @@ class TraitTest extends TestCase
         );
     }
 
-    public function test_getHtmlPurifier_with_purifier_path(): void
+    public function test_get_html_purifier_with_purifier_path(): void
     {
         $instance = new StoreRequest;
 

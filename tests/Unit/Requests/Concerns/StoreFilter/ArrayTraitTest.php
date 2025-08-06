@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -22,7 +23,7 @@ class ArrayTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterArray()
      */
-    public function test_filterArray(): void
+    public function test_filter_array(): void
     {
         $instance = new StoreRequest;
 
@@ -62,7 +63,7 @@ class ArrayTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterArrayToJson()
      */
-    public function test_filterArray_to_json(): void
+    public function test_filter_array_to_json(): void
     {
         $instance = new StoreRequest;
 

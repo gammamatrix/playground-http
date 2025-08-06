@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Http\Requests\Concerns;
 
 /**
@@ -29,7 +31,7 @@ trait PaginationFlags
     }
 
     /**
-     * @param array<string, mixed> $rules
+     * @param  array<string, mixed>  $rules
      */
     public function rules_filters_flags(array &$rules): void
     {

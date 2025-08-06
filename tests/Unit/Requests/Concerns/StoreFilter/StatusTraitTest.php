@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -20,7 +21,7 @@ class StatusTraitTest extends TestCase
     use MockingTrait;
 
     /**
-     * @param array<string, mixed> $input
+     * @param  array<string, mixed>  $input
      */
     public function getStoreRequest(
         array $input = [],
@@ -45,7 +46,7 @@ class StatusTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
      */
-    public function test_filterStatus_with_empty_input(): void
+    public function test_filter_status_with_empty_input(): void
     {
         $input = [];
         $instance = $this->getStoreRequest($input);
@@ -58,7 +59,7 @@ class StatusTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
      */
-    public function test_filterStatus_with_integer(): void
+    public function test_filter_status_with_integer(): void
     {
         $input = ['status' => 1];
         $instance = $this->getStoreRequest($input);
@@ -71,7 +72,7 @@ class StatusTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
      */
-    public function test_filterStatus_with_integer_as_string(): void
+    public function test_filter_status_with_integer_as_string(): void
     {
         $input = ['status' => '1'];
         $instance = $this->getStoreRequest($input);
@@ -84,7 +85,7 @@ class StatusTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
      */
-    public function test_filterStatus_with_integer_as_negative_float(): void
+    public function test_filter_status_with_integer_as_negative_float(): void
     {
         $input = ['status' => '-1.0'];
         $instance = $this->getStoreRequest($input);
@@ -97,7 +98,7 @@ class StatusTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
      */
-    public function test_filterStatus_with_map(): void
+    public function test_filter_status_with_map(): void
     {
         $input = [
             'status' => [

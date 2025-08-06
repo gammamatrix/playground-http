@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Http\Requests;
 
 /**
@@ -83,7 +85,7 @@ class IndexRequest extends FormRequest implements Contracts\PaginationColumns, C
     }
 
     /**
-     * @param array<string, mixed> $rules
+     * @param  array<string, mixed>  $rules
      */
     public function rules_filters(array &$rules): void
     {

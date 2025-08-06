@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -24,7 +25,7 @@ class ValueTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBoolean()
      */
-    public function test_filterBoolean(): void
+    public function test_filter_boolean(): void
     {
         $instance = new StoreRequest;
 
@@ -70,7 +71,7 @@ class ValueTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterEmail()
      */
-    public function test_filterEmail(): void
+    public function test_filter_email(): void
     {
         $instance = new StoreRequest;
 
@@ -98,7 +99,7 @@ class ValueTraitTest extends TestCase
      * @see \Playground\Filters\ContentTrait::purify() HTMLPurifier
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterHtml()
      */
-    public function test_filterHtml(): void
+    public function test_filter_html(): void
     {
         $instance = new StoreRequest;
 

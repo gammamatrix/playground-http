@@ -2,7 +2,8 @@
 
 [![Playground CI Workflow](https://github.com/gammamatrix/playground-http/actions/workflows/ci.yml/badge.svg?branch=develop)](https://raw.githubusercontent.com/gammamatrix/playground-http/testing/develop/testdox.txt)
 [![Test Coverage](https://raw.githubusercontent.com/gammamatrix/playground-http/testing/develop/coverage.svg)](tests)
-[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-level%209-brightgreen)](.github/workflows/ci.yml#L120)
+
+[//]: # ([![PHPStan Level 9]&#40;https://img.shields.io/badge/PHPStan-level%209-brightgreen&#41;]&#40;.github/workflows/ci.yml#L120&#41;)
 
 The Playground Http package for [Laravel](https://laravel.com/docs/11.x) applications.
 

@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Http\Requests\Concerns;
 
 use Illuminate\Support\Str;
@@ -16,7 +18,7 @@ trait StoreSlug
     protected string $slug_table = '';
 
     /**
-     * @param array<string, string|array<string, mixed>> $rules
+     * @param  array<string, string|array<string, mixed>>  $rules
      */
     public function rules_store_slug_create(array &$rules): void
     {
@@ -31,7 +33,7 @@ trait StoreSlug
     }
 
     /**
-     * @param array<string, string|array<string, mixed>> $rules
+     * @param  array<string, string|array<string, mixed>>  $rules
      */
     public function rules_store_slug_update(array &$rules): void
     {

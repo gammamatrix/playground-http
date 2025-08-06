@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Http\Requests\Concerns;
 
 use Illuminate\Support\Carbon;
@@ -33,7 +35,7 @@ trait PaginationDates
     }
 
     /**
-     * @param array<string, mixed> $rules
+     * @param  array<string, mixed>  $rules
      */
     public function rules_filters_dates(array &$rules): void
     {

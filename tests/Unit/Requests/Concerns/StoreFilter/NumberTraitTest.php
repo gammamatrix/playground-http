@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -22,7 +23,7 @@ class NumberTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterFloat()
      */
-    public function test_filterFloat(): void
+    public function test_filter_float(): void
     {
         $instance = new StoreRequest;
 
@@ -38,7 +39,7 @@ class NumberTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterInteger()
      */
-    public function test_filterInteger(): void
+    public function test_filter_integer(): void
     {
         $instance = new StoreRequest;
 
@@ -59,7 +60,7 @@ class NumberTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterIntegerId()
      */
-    public function test_filterIntegerId(): void
+    public function test_filter_integer_id(): void
     {
         $instance = new StoreRequest;
 
@@ -83,7 +84,7 @@ class NumberTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterIntegerPositive()
      */
-    public function test_filterIntegerPositive(): void
+    public function test_filter_integer_positive(): void
     {
         $instance = new StoreRequest;
 
@@ -128,7 +129,7 @@ class NumberTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterPercent()
      */
-    public function test_filterPercent(): void
+    public function test_filter_percent(): void
     {
         $instance = new StoreRequest;
 

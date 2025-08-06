@@ -1,9 +1,11 @@
 <?php
+
 /**
  * Playground
  */
 
 declare(strict_types=1);
+
 namespace Playground\Http\Requests\Concerns;
 
 use HTMLPurifier;
@@ -42,7 +44,7 @@ trait StoreContent
     /**
      * Get HTMLPurifier
      *
-     * @param array<string, mixed> $config
+     * @param  array<string, mixed>  $config
      */
     public function getHtmlPurifier(array $config = []): HTMLPurifier
     {

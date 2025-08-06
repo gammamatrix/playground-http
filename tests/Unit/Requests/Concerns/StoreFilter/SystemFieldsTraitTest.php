@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -21,7 +22,7 @@ class SystemFieldsTraitTest extends TestCase
     use MockingTrait;
 
     /**
-     * @param array<string, mixed> $input
+     * @param  array<string, mixed>  $input
      */
     public function getStoreRequest(
         array $input = [],
@@ -46,7 +47,7 @@ class SystemFieldsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
      */
-    public function test_filterSystemFields_with_empty_input(): void
+    public function test_filter_system_fields_with_empty_input(): void
     {
         $input = [];
         $instance = $this->getStoreRequest($input);
@@ -59,7 +60,7 @@ class SystemFieldsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
      */
-    public function test_filterSystemFields_for_groups(): void
+    public function test_filter_system_fields_for_groups(): void
     {
         $input = ['gids' => 1];
         $instance = $this->getStoreRequest($input);
@@ -73,7 +74,7 @@ class SystemFieldsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
      */
-    public function test_filterSystemFields_for_valid_permissions(): void
+    public function test_filter_system_fields_for_valid_permissions(): void
     {
         $input = [
             'po' => 7,
@@ -97,7 +98,7 @@ class SystemFieldsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
      */
-    public function test_filterSystemFields_for_invalid_permissions(): void
+    public function test_filter_system_fields_for_invalid_permissions(): void
     {
         $input = [
             'po' => 100,
@@ -120,7 +121,7 @@ class SystemFieldsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
      */
-    public function test_filterSystemFields_for_rank(): void
+    public function test_filter_system_fields_for_rank(): void
     {
         $input = ['rank' => 0];
         $instance = $this->getStoreRequest($input);
@@ -143,7 +144,7 @@ class SystemFieldsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
      */
-    public function test_filterSystemFields_for_size(): void
+    public function test_filter_system_fields_for_size(): void
     {
         $input = ['size' => 0];
         $instance = $this->getStoreRequest($input);

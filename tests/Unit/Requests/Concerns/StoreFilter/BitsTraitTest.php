@@ -4,6 +4,7 @@ declare(strict_types=1);
 /**
  * Playground
  */
+
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Playground\Http\Requests\StoreRequest;
@@ -22,7 +23,7 @@ class BitsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
      */
-    public function test_filterBits_for_exponent_zero(): void
+    public function test_filter_bits_for_exponent_zero(): void
     {
         $instance = new StoreRequest;
 
@@ -38,7 +39,7 @@ class BitsTraitTest extends TestCase
      *
      * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
      */
-    public function test_filterBits_for_exponent_greater_than_zero(): void
+    public function test_filter_bits_for_exponent_greater_than_zero(): void
     {
         $instance = new StoreRequest;
 
