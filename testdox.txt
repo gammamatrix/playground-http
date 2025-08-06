@@ -1,10 +1,10 @@
 Array Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTrait)
  [x] Filter array
- [x] FilterArray to json
+ [x] Filter array to json
 
 Bits Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTrait)
- [x] FilterBits for exponent zero
- [x] FilterBits for exponent greater than zero
+ [x] Filter bits for exponent zero
+ [x] Filter bits for exponent greater than zero
 
 Command (Tests\Feature\Playground\Http\Console\Commands\About\Command)
  [x] Command about displays package information and succeed with code 0
@@ -24,26 +24,26 @@ Phone Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTrait
  [x] Filter phone
 
 Status Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\StatusTrait)
- [x] FilterStatus with empty input
- [x] FilterStatus with integer
- [x] FilterStatus with integer as string
- [x] FilterStatus with integer as negative float
- [x] FilterStatus with map
+ [x] Filter status with empty input
+ [x] Filter status with integer
+ [x] Filter status with integer as string
+ [x] Filter status with integer as negative float
+ [x] Filter status with map
 
 System Fields Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTrait)
- [x] FilterSystemFields with empty input
- [x] FilterSystemFields for groups
- [x] FilterSystemFields for valid permissions
- [x] FilterSystemFields for invalid permissions
- [x] FilterSystemFields for rank
- [x] FilterSystemFields for size
+ [x] Filter system fields with empty input
+ [x] Filter system fields for groups
+ [x] Filter system fields for valid permissions
+ [x] Filter system fields for invalid permissions
+ [x] Filter system fields for rank
+ [x] Filter system fields for size
 
 Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\Trait)
  [x] Purify
  [x] Exorcise
  [x] Get html purifier
- [x] GetHtmlPurifier with iframes
- [x] GetHtmlPurifier with purifier path
+ [x] Get html purifier with iframes
+ [x] Get html purifier with purifier path
 
 Uuid Trait (Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTrait)
  [x] Filter uuid
