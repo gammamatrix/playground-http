@@ -53,7 +53,7 @@ trait PaginationSortable
     }
 
     /**
-     * @return array<string, mixed>
+     * @return array<mixed>
      */
     public function prepareForValidationSort(): array
     {

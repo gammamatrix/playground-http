@@ -18,10 +18,12 @@
     ],
     "require": {
         "php": "^8.4",
-        "gammamatrix/playground": "dev-develop"
+        "gammamatrix/playground": "dev-develop",
+        "illuminate/support": "^12.0"
     },
     "require-dev": {
-        "gammamatrix/playground-test": "dev-develop"
+        "gammamatrix/playground-test": "dev-develop",
+        "illuminate/testing": "^12.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

@@ -18,7 +18,7 @@ trait StoreSlug
     protected string $slug_table = '';
 
     /**
-     * @param  array<string, string|array<string, mixed>>  $rules
+     * @param  array<string, mixed>  $rules
      */
     public function rules_store_slug_create(array &$rules): void
     {
@@ -33,7 +33,7 @@ trait StoreSlug
     }
 
     /**
-     * @param  array<string, string|array<string, mixed>>  $rules
+     * @param  array<string, mixed>  $rules
      */
     public function rules_store_slug_update(array &$rules): void
     {
@@ -52,7 +52,11 @@ trait StoreSlug
     }
 
     /**
-     * @return array<string, string>
+     * @return array{
+     *     slug: string,
+     *     label: string,
+     *     title: string
+     * }
      */
     public function prepareForValidationForSlug(): array
     {

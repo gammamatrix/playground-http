@@ -408,8 +408,8 @@ trait StoreFilter
         // Filter group fields.
         if ($this->exists('gids')) {
             $gids = $this->input('gids');
-            if (isset($gids) && is_numeric($gids)) {
-                $input['gids'] = (int) abs($gids);
+            if (isset($gids) && is_numeric($gids) && $gids > 0) {
+                $input['gids'] = intval($gids);
             }
         }
 
@@ -420,21 +420,21 @@ trait StoreFilter
 
         if ($this->exists('po')) {
             $po = $this->input('po');
-            if (isset($po) && is_numeric($po)) {
-                $input['po'] = intval(abs($po)) & $pBits;
+            if (isset($po) && is_numeric($po) && $po > 0) {
+                $input['po'] = intval($po) & $pBits;
             }
         }
 
         if ($this->exists('pg')) {
             $pg = $this->input('pg');
-            if (isset($pg) && is_numeric($pg)) {
-                $input['pg'] = intval(abs($pg)) & $pBits;
+            if (isset($pg) && is_numeric($pg) && $pg > 0) {
+                $input['pg'] = intval($pg) & $pBits;
             }
         }
         if ($this->exists('pw')) {
             $pw = $this->input('pw');
-            if (isset($pw) && is_numeric($pw)) {
-                $input['pw'] = intval(abs($pw)) & $pBits;
+            if (isset($pw) && is_numeric($pw) && $pw > 0) {
+                $input['pw'] = intval($pw) & $pBits;
             }
         }
 

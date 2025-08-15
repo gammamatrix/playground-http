@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace Tests\Feature\Playground\Http\Console\Commands\About;
 
 use PHPUnit\Framework\Attributes\CoversClass;
-use Playground\Test\ServiceProvider;
+use Playground\Http\ServiceProvider;
 use Tests\Feature\Playground\Http\TestCase;
 
 /**

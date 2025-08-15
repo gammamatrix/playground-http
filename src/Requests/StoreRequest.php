@@ -23,7 +23,6 @@ class StoreRequest extends FormRequest implements Contracts\StoreContent, Contra
     public function messages(): array
     {
         return [
-            // 'slug.unique' => 'The :attribute has already been taken: :input',
             'slug.unique' => __('playground-http::validation.slug.unique'),
         ];
     }
@@ -31,26 +30,14 @@ class StoreRequest extends FormRequest implements Contracts\StoreContent, Contra
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     * @return array<string, mixed>
      */
     public function rules(): array
     {
         $rules = parent::rules();
 
-        if (method_exists($this, 'rules_store_slug_create')) {
-            $this->rules_store_slug_create($rules);
-        }
-        // dump([
-        //     '__METHOD__' => __METHOD__,
-        //     '__FILE__' => __FILE__,
-        //     '__LINE__' => __LINE__,
-        //     '$rules' => $rules,
-        // ]);
+        $this->rules_store_slug_create($rules);
 
-        // \Log::debug(__METHOD__, [
-        //     '$action' => $action,
-        //     '$rules' => $rules,
-        // ]);
         return $rules;
     }
 
@@ -61,8 +48,6 @@ class StoreRequest extends FormRequest implements Contracts\StoreContent, Contra
      */
     protected function prepareForValidation()
     {
-        if (method_exists($this, 'prepareForValidationForSlug')) {
-            $this->prepareForValidationForSlug();
-        }
+        $this->prepareForValidationForSlug();
     }
 }

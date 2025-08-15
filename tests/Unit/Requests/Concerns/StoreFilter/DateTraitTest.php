@@ -64,6 +64,7 @@ class DateTraitTest extends TestCase
 
         $date = 'now';
         $this->assertInstanceOf(\DateTime::class, $instance->filterDateAsCarbon($date));
-        $this->assertInstanceOf(\Carbon\Carbon::class, $instance->filterDateAsCarbon($date));
+        /** @phpstan-ignore method.alreadyNarrowedType */
+        $this->assertInstanceOf(Carbon::class, $instance->filterDateAsCarbon($date));
     }
 }

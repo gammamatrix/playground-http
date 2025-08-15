@@ -31,15 +31,13 @@ class UpdateRequest extends FormRequest implements Contracts\StoreContent, Contr
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     * @return array<string, mixed>
      */
     public function rules(): array
     {
         $rules = parent::rules();
 
-        if (method_exists($this, 'rules_store_slug_update')) {
-            $this->rules_store_slug_update($rules);
-        }
+        $this->rules_store_slug_update($rules);
         // dump([
         //     '__METHOD__' => __METHOD__,
         //     '__FILE__' => __FILE__,
@@ -61,9 +59,7 @@ class UpdateRequest extends FormRequest implements Contracts\StoreContent, Contr
      */
     protected function prepareForValidation()
     {
-        if (method_exists($this, 'prepareForValidationForSlug')) {
-            $this->prepareForValidationForSlug();
-        }
+        $this->prepareForValidationForSlug();
         // dd([
         //     '__METHOD__' => __METHOD__,
         //     '__FILE__' => __FILE__,

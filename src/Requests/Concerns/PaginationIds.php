@@ -49,7 +49,7 @@ trait PaginationIds
     }
 
     /**
-     * @return array<string, mixed>
+     * @return array<mixed>
      */
     public function prepareForValidationIds(): array
     {

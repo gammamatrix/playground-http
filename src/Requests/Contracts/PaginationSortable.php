@@ -24,7 +24,7 @@ interface PaginationSortable
     public function rules_sortable(array &$rules): void;
 
     /**
-     * @return array<string, mixed>
+     * @return array<mixed>
      */
     public function prepareForValidationSort(): array;
 }

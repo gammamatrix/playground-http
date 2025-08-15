@@ -16,7 +16,7 @@ use Illuminate\Foundation\Http\FormRequest as BaseFormRequest;
 class FormRequest extends BaseFormRequest
 {
     /**
-     * @var array<string, string|array<mixed>>
+     * @var array<string, mixed>
      */
     public const RULES = [];
 
@@ -38,12 +38,10 @@ class FormRequest extends BaseFormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     * @return array<string, mixed>
      */
     public function rules(): array
     {
-        $rules = is_array(static::RULES) ? static::RULES : [];
-
-        return $rules;
+        return static::RULES;
     }
 }

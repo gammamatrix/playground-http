@@ -51,7 +51,7 @@ trait PaginationDates
     }
 
     /**
-     * @return ?array<string, mixed>
+     * @return ?array<mixed>
      */
     public function prepareForValidationForDates(): ?array
     {

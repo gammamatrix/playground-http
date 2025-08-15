@@ -35,7 +35,7 @@ class IndexRequest extends FormRequest implements Contracts\PaginationColumns, C
     protected $perPageMax = 100;
 
     /**
-     * @var array<string, string|array<mixed>>
+     * @var array<string, mixed>
      */
     public const RULES = [
         'perPage' => [
@@ -63,7 +63,7 @@ class IndexRequest extends FormRequest implements Contracts\PaginationColumns, C
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     * @return array<string, mixed>
      */
     public function rules(): array
     {
@@ -86,21 +86,14 @@ class IndexRequest extends FormRequest implements Contracts\PaginationColumns, C
 
     /**
      * @param  array<string, mixed>  $rules
+     *                                       param-out array<string, array<mixed>|\Illuminate\Contracts\Validation\ValidationRule|string> $rules
      */
     public function rules_filters(array &$rules): void
     {
-        if (method_exists($this, 'rules_filters_flags')) {
-            $this->rules_filters_flags($rules);
-        }
-        if (method_exists($this, 'rules_filters_dates')) {
-            $this->rules_filters_dates($rules);
-        }
-        if (method_exists($this, 'rules_filters_ids')) {
-            $this->rules_filters_ids($rules);
-        }
-        if (method_exists($this, 'rules_filters_columns')) {
-            $this->rules_filters_columns($rules);
-        }
+        $this->rules_filters_flags($rules);
+        $this->rules_filters_dates($rules);
+        $this->rules_filters_ids($rules);
+        $this->rules_filters_columns($rules);
     }
 
     /**
@@ -117,17 +110,11 @@ class IndexRequest extends FormRequest implements Contracts\PaginationColumns, C
 
         $this->prepareForValidationPagination();
 
-        if (method_exists($this, 'prepareForValidationForDates')) {
-            $this->prepareForValidationForDates();
-        }
+        $this->prepareForValidationForDates();
 
-        if (method_exists($this, 'prepareForValidationIds')) {
-            $this->prepareForValidationSort();
-        }
+        $this->prepareForValidationSort();
 
-        if (method_exists($this, 'prepareForValidationIds')) {
-            $this->prepareForValidationSort();
-        }
+        $this->prepareForValidationSort();
     }
 
     /**

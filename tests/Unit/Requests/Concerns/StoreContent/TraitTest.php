@@ -37,6 +37,7 @@ class TraitTest extends TestCase
     {
         $instance = new StoreRequest;
 
+        /** @phpstan-ignore method.alreadyNarrowedType */
         $this->assertInstanceOf(
             \HTMLPurifier::class,
             $instance->getHtmlPurifier()
@@ -47,6 +48,7 @@ class TraitTest extends TestCase
     {
         $instance = new StoreRequest;
 
+        /** @phpstan-ignore method.alreadyNarrowedType */
         $this->assertInstanceOf(
             \HTMLPurifier::class,
             $instance->getHtmlPurifier([
@@ -59,6 +61,7 @@ class TraitTest extends TestCase
     {
         $instance = new StoreRequest;
 
+        /** @phpstan-ignore method.alreadyNarrowedType */
         $this->assertInstanceOf(
             \HTMLPurifier::class,
             $instance->getHtmlPurifier([

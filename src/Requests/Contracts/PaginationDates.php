@@ -24,7 +24,7 @@ interface PaginationDates
     public function rules_filters_dates(array &$rules): void;
 
     /**
-     * @return ?array<string, mixed>
+     * @return ?array<mixed>
      */
     public function prepareForValidationForDates(): ?array;
 }

@@ -24,7 +24,7 @@ interface PaginationIds
     public function rules_filters_ids(array &$rules): void;
 
     /**
-     * @return array<string, mixed>
+     * @return array<mixed>
      */
     public function prepareForValidationIds(): ?array;
 }
