@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2025-08-06 22:46:17</timestamp>
+  <timestamp>2025-08-15 15:20:24</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>56</methodCount>
     <crapMethodCount>6</crapMethodCount>
     <crapLoad>87</crapLoad>
-    <totalCrap>1777</totalCrap>
+    <totalCrap>1715</totalCrap>
     <crapMethodPercent>10.71</crapMethodPercent>
   </stats>
   <methods>
@@ -391,8 +391,8 @@
       <methodName>filterSystemFields</methodName>
       <methodSignature>filterSystemFields(array $input): void</methodSignature>
       <fullMethod>filterSystemFields(array $input): void</fullMethod>
-      <crap>19</crap>
-      <complexity>19</complexity>
+      <crap>23</crap>
+      <complexity>23</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -468,8 +468,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>6</crap>
-      <complexity>2</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -490,8 +490,8 @@
       <methodName>rules_filters</methodName>
       <methodSignature>rules_filters(array $rules): void</methodSignature>
       <fullMethod>rules_filters(array $rules): void</fullMethod>
-      <crap>30</crap>
-      <complexity>5</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -501,8 +501,8 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation(): void</methodSignature>
       <fullMethod>prepareForValidation(): void</fullMethod>
-      <crap>20</crap>
-      <complexity>4</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -545,8 +545,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>6</crap>
-      <complexity>2</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -556,8 +556,8 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation()</methodSignature>
       <fullMethod>prepareForValidation()</fullMethod>
-      <crap>6</crap>
-      <complexity>2</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -578,8 +578,8 @@
       <methodName>rules</methodName>
       <methodSignature>rules(): array</methodSignature>
       <fullMethod>rules(): array</fullMethod>
-      <crap>6</crap>
-      <complexity>2</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
@@ -589,8 +589,8 @@
       <methodName>prepareForValidation</methodName>
       <methodSignature>prepareForValidation()</methodSignature>
       <fullMethod>prepareForValidation()</fullMethod>
-      <crap>6</crap>
-      <complexity>2</complexity>
+      <crap>2</crap>
+      <complexity>1</complexity>
       <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
