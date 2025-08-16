@@ -9,23 +9,23 @@
 
 ##teamcity[testStarted name='test_purify' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify' flowId='1']
 
-##teamcity[testFinished name='test_purify' duration='247' flowId='1']
+##teamcity[testFinished name='test_purify' duration='240' flowId='1']
 
 ##teamcity[testStarted name='test_exorcise' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_exorcise' flowId='1']
 
-##teamcity[testFinished name='test_exorcise' duration='5' flowId='1']
+##teamcity[testFinished name='test_exorcise' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_get_html_purifier' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_get_html_purifier' flowId='1']
 
-##teamcity[testFinished name='test_get_html_purifier' duration='5' flowId='1']
+##teamcity[testFinished name='test_get_html_purifier' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_get_html_purifier_with_iframes' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_get_html_purifier_with_iframes' flowId='1']
 
-##teamcity[testFinished name='test_get_html_purifier_with_iframes' duration='5' flowId='1']
+##teamcity[testFinished name='test_get_html_purifier_with_iframes' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_get_html_purifier_with_purifier_path' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_get_html_purifier_with_purifier_path' flowId='1']
 
-##teamcity[testFinished name='test_get_html_purifier_with_purifier_path' duration='5' flowId='1']
+##teamcity[testFinished name='test_get_html_purifier_with_purifier_path' duration='4' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest' flowId='1']
 
@@ -33,11 +33,11 @@
 
 ##teamcity[testStarted name='test_filter_array' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/ArrayTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTraitTest::test_filter_array' flowId='1']
 
-##teamcity[testFinished name='test_filter_array' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_array' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_array_to_json' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/ArrayTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTraitTest::test_filter_array_to_json' flowId='1']
 
-##teamcity[testFinished name='test_filter_array_to_json' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_array_to_json' duration='4' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTraitTest' flowId='1']
 
@@ -45,11 +45,11 @@
 
 ##teamcity[testStarted name='test_filter_bits_for_exponent_zero' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/BitsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTraitTest::test_filter_bits_for_exponent_zero' flowId='1']
 
-##teamcity[testFinished name='test_filter_bits_for_exponent_zero' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_bits_for_exponent_zero' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_bits_for_exponent_greater_than_zero' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/BitsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTraitTest::test_filter_bits_for_exponent_greater_than_zero' flowId='1']
 
-##teamcity[testFinished name='test_filter_bits_for_exponent_greater_than_zero' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_bits_for_exponent_greater_than_zero' duration='4' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTraitTest' flowId='1']
 
@@ -61,7 +61,7 @@
 
 ##teamcity[testStarted name='test_filter_date_as_carbon' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/DateTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTraitTest::test_filter_date_as_carbon' flowId='1']
 
-##teamcity[testFinished name='test_filter_date_as_carbon' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_date_as_carbon' duration='4' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTraitTest' flowId='1']
 
@@ -69,19 +69,19 @@
 
 ##teamcity[testStarted name='test_filter_float' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/NumberTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTraitTest::test_filter_float' flowId='1']
 
-##teamcity[testFinished name='test_filter_float' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_float' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_integer' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/NumberTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTraitTest::test_filter_integer' flowId='1']
 
-##teamcity[testFinished name='test_filter_integer' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_integer' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_integer_id' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/NumberTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTraitTest::test_filter_integer_id' flowId='1']
 
-##teamcity[testFinished name='test_filter_integer_id' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_integer_id' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_integer_positive' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/NumberTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTraitTest::test_filter_integer_positive' flowId='1']
 
-##teamcity[testFinished name='test_filter_integer_positive' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_integer_positive' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_percent' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/NumberTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTraitTest::test_filter_percent' flowId='1']
 
@@ -129,7 +129,7 @@
 
 ##teamcity[testStarted name='test_filter_system_fields_for_groups' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/SystemFieldsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest::test_filter_system_fields_for_groups' flowId='1']
 
-##teamcity[testFinished name='test_filter_system_fields_for_groups' duration='4' flowId='1']
+##teamcity[testFinished name='test_filter_system_fields_for_groups' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_filter_system_fields_for_valid_permissions' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/SystemFieldsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest::test_filter_system_fields_for_valid_permissions' flowId='1']
 
@@ -137,7 +137,7 @@
 
 ##teamcity[testStarted name='test_filter_system_fields_for_invalid_permissions' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/SystemFieldsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest::test_filter_system_fields_for_invalid_permissions' flowId='1']
 
-##teamcity[testFinished name='test_filter_system_fields_for_invalid_permissions' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_system_fields_for_invalid_permissions' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_system_fields_for_rank' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/SystemFieldsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest::test_filter_system_fields_for_rank' flowId='1']
 
@@ -153,7 +153,7 @@
 
 ##teamcity[testStarted name='test_filter_uuid' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/UuidTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTraitTest::test_filter_uuid' flowId='1']
 
-##teamcity[testFinished name='test_filter_uuid' duration='22' flowId='1']
+##teamcity[testFinished name='test_filter_uuid' duration='21' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTraitTest' flowId='1']
 
@@ -161,7 +161,7 @@
 
 ##teamcity[testStarted name='test_filter_boolean' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/ValueTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTraitTest::test_filter_boolean' flowId='1']
 
-##teamcity[testFinished name='test_filter_boolean' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_boolean' duration='4' flowId='1']
 
 ##teamcity[testStarted name='test_filter_email' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/ValueTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTraitTest::test_filter_email' flowId='1']
 
@@ -181,7 +181,7 @@
 
 ##teamcity[testStarted name='test_command_about_displays_package_information_and_succeed_with_code_0' locationHint='php_qn:///app/tests/Feature/Console/Commands/About/CommandTest.php::\Tests\Feature\Playground\Http\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0' flowId='1']
 
-##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='142' flowId='1']
+##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='134' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Http\Console\Commands\About\CommandTest' flowId='1']
 
