@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.38646288209607" branch-rate="0" lines-covered="177" lines-valid="458" branches-covered="0" branches-valid="0" complexity="250" version="0.4" timestamp="1755361452">
+<coverage line-rate="0.36721991701245" branch-rate="0" lines-covered="177" lines-valid="482" branches-covered="0" branches-valid="0" complexity="268" version="0.4" timestamp="1757297604">
   <sources>
     <source>/app/src</source>
   </sources>
@@ -533,9 +533,9 @@
         </class>
       </classes>
     </package>
-    <package name="Requests/Concerns/StoreFilter.php" line-rate="0.81645569620253" branch-rate="0" complexity="103">
+    <package name="Requests/Concerns/StoreFilter.php" line-rate="0.70879120879121" branch-rate="0" complexity="121">
       <classes>
-        <class name="Playground\Http\Requests\Concerns\StoreFilter" filename="Requests/Concerns/StoreFilter.php" line-rate="0.81645569620253" branch-rate="0" complexity="103">
+        <class name="Playground\Http\Requests\Concerns\StoreFilter" filename="Requests/Concerns/StoreFilter.php" line-rate="0.70879120879121" branch-rate="0" complexity="121">
           <methods>
             <method name="filterArray" signature="mixed $value" line-rate="1" branch-rate="0" complexity="4">
               <lines>
@@ -732,47 +732,71 @@
                 <line number="397" hits="0"/>
               </lines>
             </method>
-            <method name="filterSystemFields" signature="array $input" line-rate="1" branch-rate="0" complexity="23">
+            <method name="filterSystemFields" signature="array $input" line-rate="0.51020408163265" branch-rate="0" complexity="41">
               <lines>
                 <line number="409" hits="6"/>
                 <line number="410" hits="1"/>
                 <line number="411" hits="1"/>
                 <line number="412" hits="1"/>
-                <line number="419" hits="6"/>
-                <line number="421" hits="6"/>
-                <line number="422" hits="2"/>
-                <line number="423" hits="2"/>
-                <line number="424" hits="2"/>
-                <line number="428" hits="6"/>
-                <line number="429" hits="2"/>
+                <line number="413" hits="0"/>
+                <line number="414" hits="0"/>
+                <line number="415" hits="0"/>
+                <line number="416" hits="0"/>
+                <line number="417" hits="0"/>
+                <line number="418" hits="0"/>
+                <line number="427" hits="6"/>
+                <line number="429" hits="6"/>
                 <line number="430" hits="2"/>
                 <line number="431" hits="2"/>
-                <line number="434" hits="6"/>
-                <line number="435" hits="2"/>
-                <line number="436" hits="2"/>
-                <line number="437" hits="2"/>
-                <line number="441" hits="6"/>
-                <line number="442" hits="1"/>
-                <line number="443" hits="1"/>
-                <line number="444" hits="1"/>
-                <line number="448" hits="6"/>
-                <line number="449" hits="1"/>
-                <line number="450" hits="1"/>
-                <line number="451" hits="1"/>
+                <line number="432" hits="2"/>
+                <line number="433" hits="0"/>
+                <line number="434" hits="0"/>
+                <line number="435" hits="0"/>
+                <line number="436" hits="0"/>
+                <line number="437" hits="0"/>
+                <line number="438" hits="0"/>
+                <line number="444" hits="6"/>
+                <line number="445" hits="2"/>
+                <line number="446" hits="2"/>
+                <line number="447" hits="2"/>
+                <line number="448" hits="0"/>
+                <line number="449" hits="0"/>
+                <line number="450" hits="0"/>
+                <line number="451" hits="0"/>
+                <line number="452" hits="0"/>
+                <line number="453" hits="0"/>
+                <line number="458" hits="6"/>
+                <line number="459" hits="2"/>
+                <line number="460" hits="2"/>
+                <line number="461" hits="2"/>
+                <line number="462" hits="0"/>
+                <line number="463" hits="0"/>
+                <line number="464" hits="0"/>
+                <line number="465" hits="0"/>
+                <line number="466" hits="0"/>
+                <line number="467" hits="0"/>
+                <line number="473" hits="6"/>
+                <line number="474" hits="1"/>
+                <line number="475" hits="1"/>
+                <line number="476" hits="1"/>
+                <line number="480" hits="6"/>
+                <line number="481" hits="1"/>
+                <line number="482" hits="1"/>
+                <line number="483" hits="1"/>
               </lines>
             </method>
             <method name="filterUri" signature="mixed $value" line-rate="0" branch-rate="0" complexity="4">
               <lines>
-                <line number="461" hits="0"/>
-                <line number="462" hits="0"/>
-                <line number="465" hits="0"/>
-                <line number="467" hits="0"/>
+                <line number="493" hits="0"/>
+                <line number="494" hits="0"/>
+                <line number="497" hits="0"/>
+                <line number="499" hits="0"/>
               </lines>
             </method>
             <method name="filterUuid" signature="mixed $value" line-rate="1" branch-rate="0" complexity="3">
               <lines>
-                <line number="477" hits="1"/>
-                <line number="478" hits="1"/>
+                <line number="509" hits="1"/>
+                <line number="510" hits="1"/>
               </lines>
             </method>
           </methods>
@@ -908,33 +932,57 @@
             <line number="410" hits="1"/>
             <line number="411" hits="1"/>
             <line number="412" hits="1"/>
-            <line number="419" hits="6"/>
-            <line number="421" hits="6"/>
-            <line number="422" hits="2"/>
-            <line number="423" hits="2"/>
-            <line number="424" hits="2"/>
-            <line number="428" hits="6"/>
-            <line number="429" hits="2"/>
+            <line number="413" hits="0"/>
+            <line number="414" hits="0"/>
+            <line number="415" hits="0"/>
+            <line number="416" hits="0"/>
+            <line number="417" hits="0"/>
+            <line number="418" hits="0"/>
+            <line number="427" hits="6"/>
+            <line number="429" hits="6"/>
             <line number="430" hits="2"/>
             <line number="431" hits="2"/>
-            <line number="434" hits="6"/>
-            <line number="435" hits="2"/>
-            <line number="436" hits="2"/>
-            <line number="437" hits="2"/>
-            <line number="441" hits="6"/>
-            <line number="442" hits="1"/>
-            <line number="443" hits="1"/>
-            <line number="444" hits="1"/>
-            <line number="448" hits="6"/>
-            <line number="449" hits="1"/>
-            <line number="450" hits="1"/>
-            <line number="451" hits="1"/>
-            <line number="461" hits="0"/>
+            <line number="432" hits="2"/>
+            <line number="433" hits="0"/>
+            <line number="434" hits="0"/>
+            <line number="435" hits="0"/>
+            <line number="436" hits="0"/>
+            <line number="437" hits="0"/>
+            <line number="438" hits="0"/>
+            <line number="444" hits="6"/>
+            <line number="445" hits="2"/>
+            <line number="446" hits="2"/>
+            <line number="447" hits="2"/>
+            <line number="448" hits="0"/>
+            <line number="449" hits="0"/>
+            <line number="450" hits="0"/>
+            <line number="451" hits="0"/>
+            <line number="452" hits="0"/>
+            <line number="453" hits="0"/>
+            <line number="458" hits="6"/>
+            <line number="459" hits="2"/>
+            <line number="460" hits="2"/>
+            <line number="461" hits="2"/>
             <line number="462" hits="0"/>
+            <line number="463" hits="0"/>
+            <line number="464" hits="0"/>
             <line number="465" hits="0"/>
+            <line number="466" hits="0"/>
             <line number="467" hits="0"/>
-            <line number="477" hits="1"/>
-            <line number="478" hits="1"/>
+            <line number="473" hits="6"/>
+            <line number="474" hits="1"/>
+            <line number="475" hits="1"/>
+            <line number="476" hits="1"/>
+            <line number="480" hits="6"/>
+            <line number="481" hits="1"/>
+            <line number="482" hits="1"/>
+            <line number="483" hits="1"/>
+            <line number="493" hits="0"/>
+            <line number="494" hits="0"/>
+            <line number="497" hits="0"/>
+            <line number="499" hits="0"/>
+            <line number="509" hits="1"/>
+            <line number="510" hits="1"/>
           </lines>
         </class>
       </classes>

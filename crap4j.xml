@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2025-08-16 16:24:12</timestamp>
+  <timestamp>2025-09-08 02:13:24</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>56</methodCount>
-    <crapMethodCount>6</crapMethodCount>
-    <crapLoad>87</crapLoad>
-    <totalCrap>1715</totalCrap>
-    <crapMethodPercent>10.71</crapMethodPercent>
+    <crapMethodCount>7</crapMethodCount>
+    <crapLoad>108</crapLoad>
+    <totalCrap>1930.52</totalCrap>
+    <crapMethodPercent>12.5</crapMethodPercent>
   </stats>
   <methods>
     <method>
@@ -391,10 +391,10 @@
       <methodName>filterSystemFields</methodName>
       <methodSignature>filterSystemFields(array $input): void</methodSignature>
       <fullMethod>filterSystemFields(array $input): void</fullMethod>
-      <crap>23</crap>
-      <complexity>23</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
+      <crap>238.52</crap>
+      <complexity>41</complexity>
+      <coverage>51.02</coverage>
+      <crapLoad>21</crapLoad>
     </method>
     <method>
       <package>Playground\Http\Requests\Concerns</package>
