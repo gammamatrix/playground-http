@@ -408,8 +408,16 @@ trait StoreFilter
         // Filter group fields.
         if ($this->exists('gids')) {
             $gids = $this->input('gids');
-            if (isset($gids) && is_numeric($gids) && $gids > 0) {
+            if (is_numeric($gids) && $gids > 0) {
                 $input['gids'] = intval($gids);
+            } elseif (is_array($gids)) {
+                $input['gids'] = 0;
+                foreach ($gids as $i => $gid) {
+                    if (is_numeric($gid) && $gid > 0 && $gid <= pow(2, 32)) {
+                        $gid = intval($gid);
+                        $input['gids'] = $gid ^ $input['gids'];
+                    }
+                }
             }
         }
 
@@ -420,8 +428,16 @@ trait StoreFilter
 
         if ($this->exists('po')) {
             $po = $this->input('po');
-            if (isset($po) && is_numeric($po) && $po > 0) {
+            if (is_numeric($po) && $po > 0) {
                 $input['po'] = intval($po) & $pBits;
+            } elseif (is_array($po)) {
+                $input['po'] = 0;
+                foreach ($po as $i => $value) {
+                    if (is_numeric($value) && $value > 0 && $value < $pBits) {
+                        $value = intval($value);
+                        $input['po'] = $value ^ $input['po'];
+                    }
+                }
             }
         }
 
@@ -429,12 +445,28 @@ trait StoreFilter
             $pg = $this->input('pg');
             if (isset($pg) && is_numeric($pg) && $pg > 0) {
                 $input['pg'] = intval($pg) & $pBits;
+            } elseif (is_array($pg)) {
+                $input['pg'] = 0;
+                foreach ($pg as $i => $value) {
+                    if (is_numeric($value) && $value > 0 && $value < $pBits) {
+                        $value = intval($value);
+                        $input['pg'] = $value ^ $input['pg'];
+                    }
+                }
             }
         }
         if ($this->exists('pw')) {
             $pw = $this->input('pw');
             if (isset($pw) && is_numeric($pw) && $pw > 0) {
                 $input['pw'] = intval($pw) & $pBits;
+            } elseif (is_array($pw)) {
+                $input['pw'] = 0;
+                foreach ($pw as $i => $value) {
+                    if (is_numeric($value) && $value > 0 && $value < $pBits) {
+                        $value = intval($value);
+                        $input['pw'] = $value ^ $input['pw'];
+                    }
+                }
             }
         }
 
