@@ -9,7 +9,7 @@
 
 ##teamcity[testStarted name='test_purify' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_purify' flowId='1']
 
-##teamcity[testFinished name='test_purify' duration='262' flowId='1']
+##teamcity[testFinished name='test_purify' duration='251' flowId='1']
 
 ##teamcity[testStarted name='test_exorcise' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreContent/TraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreContent\TraitTest::test_exorcise' flowId='1']
 
@@ -93,7 +93,7 @@
 
 ##teamcity[testStarted name='test_filter_phone' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/PhoneTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTraitTest::test_filter_phone' flowId='1']
 
-##teamcity[testFinished name='test_filter_phone' duration='4' flowId='1']
+##teamcity[testFinished name='test_filter_phone' duration='5' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTraitTest' flowId='1']
 
@@ -145,7 +145,7 @@
 
 ##teamcity[testStarted name='test_filter_system_fields_for_size' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/SystemFieldsTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest::test_filter_system_fields_for_size' flowId='1']
 
-##teamcity[testFinished name='test_filter_system_fields_for_size' duration='5' flowId='1']
+##teamcity[testFinished name='test_filter_system_fields_for_size' duration='6' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest' flowId='1']
 
@@ -153,7 +153,7 @@
 
 ##teamcity[testStarted name='test_filter_uuid' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/UuidTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTraitTest::test_filter_uuid' flowId='1']
 
-##teamcity[testFinished name='test_filter_uuid' duration='22' flowId='1']
+##teamcity[testFinished name='test_filter_uuid' duration='21' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\UuidTraitTest' flowId='1']
 
@@ -161,7 +161,7 @@
 
 ##teamcity[testStarted name='test_filter_boolean' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/ValueTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTraitTest::test_filter_boolean' flowId='1']
 
-##teamcity[testFinished name='test_filter_boolean' duration='4' flowId='1']
+##teamcity[testFinished name='test_filter_boolean' duration='5' flowId='1']
 
 ##teamcity[testStarted name='test_filter_email' locationHint='php_qn:///app/tests/Unit/Requests/Concerns/StoreFilter/ValueTraitTest.php::\Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTraitTest::test_filter_email' flowId='1']
 
@@ -181,7 +181,7 @@
 
 ##teamcity[testStarted name='test_command_about_displays_package_information_and_succeed_with_code_0' locationHint='php_qn:///app/tests/Feature/Console/Commands/About/CommandTest.php::\Tests\Feature\Playground\Http\Console\Commands\About\CommandTest::test_command_about_displays_package_information_and_succeed_with_code_0' flowId='1']
 
-##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='139' flowId='1']
+##teamcity[testFinished name='test_command_about_displays_package_information_and_succeed_with_code_0' duration='125' flowId='1']
 
 ##teamcity[testSuiteFinished name='Tests\Feature\Playground\Http\Console\Commands\About\CommandTest' flowId='1']
 
