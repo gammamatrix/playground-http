@@ -7,21 +7,22 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Tests\Unit\Playground\Http\TestCase;
 
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\NumberTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
+ * @see StoreFilter::filterBits()
+ * @see StoreFilter::filterBits()
  */
 class NumberTraitTest extends TestCase
 {
     /**
      * filterFloat
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterFloat()
+     * @see StoreFilter::filterFloat()
      */
     public function test_filter_float(): void
     {
@@ -37,7 +38,7 @@ class NumberTraitTest extends TestCase
     /**
      * filterInteger
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterInteger()
+     * @see StoreFilter::filterInteger()
      */
     public function test_filter_integer(): void
     {
@@ -58,7 +59,7 @@ class NumberTraitTest extends TestCase
     /**
      * filterIntegerId
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterIntegerId()
+     * @see StoreFilter::filterIntegerId()
      */
     public function test_filter_integer_id(): void
     {
@@ -82,7 +83,7 @@ class NumberTraitTest extends TestCase
     /**
      * filterIntegerPositive
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterIntegerPositive()
+     * @see StoreFilter::filterIntegerPositive()
      */
     public function test_filter_integer_positive(): void
     {
@@ -127,7 +128,7 @@ class NumberTraitTest extends TestCase
     /**
      * filterPercent
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterPercent()
+     * @see StoreFilter::filterPercent()
      */
     public function test_filter_percent(): void
     {

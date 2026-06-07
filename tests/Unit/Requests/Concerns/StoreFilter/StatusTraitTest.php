@@ -7,6 +7,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Playground\Test\MockingTrait;
 use Tests\Unit\Playground\Http\TestCase;
@@ -14,7 +15,7 @@ use Tests\Unit\Playground\Http\TestCase;
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
+ * @see StoreFilter::filterStatus()
  */
 class StatusTraitTest extends TestCase
 {
@@ -44,7 +45,7 @@ class StatusTraitTest extends TestCase
     /**
      * filterStatus
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
+     * @see StoreFilter::filterStatus()
      */
     public function test_filter_status_with_empty_input(): void
     {
@@ -57,7 +58,7 @@ class StatusTraitTest extends TestCase
     /**
      * filterStatus
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
+     * @see StoreFilter::filterStatus()
      */
     public function test_filter_status_with_integer(): void
     {
@@ -70,7 +71,7 @@ class StatusTraitTest extends TestCase
     /**
      * filterStatus
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
+     * @see StoreFilter::filterStatus()
      */
     public function test_filter_status_with_integer_as_string(): void
     {
@@ -83,7 +84,7 @@ class StatusTraitTest extends TestCase
     /**
      * filterStatus
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
+     * @see StoreFilter::filterStatus()
      */
     public function test_filter_status_with_integer_as_negative_float(): void
     {
@@ -96,7 +97,7 @@ class StatusTraitTest extends TestCase
     /**
      * filterStatus
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterStatus()
+     * @see StoreFilter::filterStatus()
      */
     public function test_filter_status_with_map(): void
     {

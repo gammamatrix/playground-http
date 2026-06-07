@@ -7,21 +7,22 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Tests\Unit\Playground\Http\TestCase;
 
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\BitsTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
+ * @see StoreFilter::filterBits()
+ * @see StoreFilter::filterBits()
  */
 class BitsTraitTest extends TestCase
 {
     /**
      * filterBits: $exponent = 0
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
+     * @see StoreFilter::filterBits()
      */
     public function test_filter_bits_for_exponent_zero(): void
     {
@@ -37,7 +38,7 @@ class BitsTraitTest extends TestCase
     /**
      * filterBits: $exponent > 0
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
+     * @see StoreFilter::filterBits()
      */
     public function test_filter_bits_for_exponent_greater_than_zero(): void
     {

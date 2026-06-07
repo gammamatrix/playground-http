@@ -7,23 +7,25 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Filters\ContentTrait;
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Tests\Unit\Playground\Http\TestCase;
 
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ValueTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBoolean()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterFloat()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterInteger()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterPercent()
+ * @see StoreFilter::filterBoolean()
+ * @see StoreFilter::filterFloat()
+ * @see StoreFilter::filterInteger()
+ * @see StoreFilter::filterPercent()
  */
 class ValueTraitTest extends TestCase
 {
     /**
      * filterBoolean
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBoolean()
+     * @see StoreFilter::filterBoolean()
      */
     public function test_filter_boolean(): void
     {
@@ -69,7 +71,7 @@ class ValueTraitTest extends TestCase
     /**
      * filterEmail
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterEmail()
+     * @see StoreFilter::filterEmail()
      */
     public function test_filter_email(): void
     {
@@ -96,8 +98,8 @@ class ValueTraitTest extends TestCase
     /**
      * filterHtml
      *
-     * @see \Playground\Filters\ContentTrait::purify() HTMLPurifier
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterHtml()
+     * @see ContentTrait::purify() HTMLPurifier
+     * @see StoreFilter::filterHtml()
      */
     public function test_filter_html(): void
     {

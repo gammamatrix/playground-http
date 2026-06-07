@@ -8,14 +8,15 @@ declare(strict_types=1);
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
 use Illuminate\Support\Carbon;
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Tests\Unit\Playground\Http\TestCase;
 
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\DateTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterDate()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterDateAsCarbon()
+ * @see StoreFilter::filterDate()
+ * @see StoreFilter::filterDateAsCarbon()
  */
 class DateTraitTest extends TestCase
 {
@@ -31,7 +32,7 @@ class DateTraitTest extends TestCase
     /**
      * filterDate
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterDate()
+     * @see StoreFilter::filterDate()
      */
     public function test_filter_date(): void
     {
@@ -54,7 +55,7 @@ class DateTraitTest extends TestCase
     /**
      * filterDateAsCarbon
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterDateAsCarbon()
+     * @see StoreFilter::filterDateAsCarbon()
      */
     public function test_filter_date_as_carbon(): void
     {

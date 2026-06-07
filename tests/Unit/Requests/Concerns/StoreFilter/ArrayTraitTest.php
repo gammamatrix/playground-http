@@ -7,21 +7,22 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Tests\Unit\Playground\Http\TestCase;
 
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\ArrayTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterArray()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterArrayToJson()
+ * @see StoreFilter::filterArray()
+ * @see StoreFilter::filterArrayToJson()
  */
 class ArrayTraitTest extends TestCase
 {
     /**
      * filterArray
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterArray()
+     * @see StoreFilter::filterArray()
      */
     public function test_filter_array(): void
     {
@@ -61,7 +62,7 @@ class ArrayTraitTest extends TestCase
     /**
      * filterArrayToJson
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterArrayToJson()
+     * @see StoreFilter::filterArrayToJson()
      */
     public function test_filter_array_to_json(): void
     {

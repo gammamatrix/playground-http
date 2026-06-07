@@ -7,6 +7,7 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Playground\Test\MockingTrait;
 use Tests\Unit\Playground\Http\TestCase;
@@ -14,8 +15,8 @@ use Tests\Unit\Playground\Http\TestCase;
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\SystemFieldsTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+ * @see StoreFilter::filterSystemFields()
+ * @see StoreFilter::filterSystemFields()
  */
 class SystemFieldsTraitTest extends TestCase
 {
@@ -45,7 +46,7 @@ class SystemFieldsTraitTest extends TestCase
     /**
      * filterSystemFields: empty
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+     * @see StoreFilter::filterSystemFields()
      */
     public function test_filter_system_fields_with_empty_input(): void
     {
@@ -58,7 +59,7 @@ class SystemFieldsTraitTest extends TestCase
     /**
      * filterSystemFields: gids
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+     * @see StoreFilter::filterSystemFields()
      */
     public function test_filter_system_fields_for_groups(): void
     {
@@ -72,7 +73,7 @@ class SystemFieldsTraitTest extends TestCase
     /**
      * filterSystemFields: po, pg, pw
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+     * @see StoreFilter::filterSystemFields()
      */
     public function test_filter_system_fields_for_valid_permissions(): void
     {
@@ -96,7 +97,7 @@ class SystemFieldsTraitTest extends TestCase
     /**
      * filterSystemFields: po, pg, pw
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+     * @see StoreFilter::filterSystemFields()
      */
     public function test_filter_system_fields_for_invalid_permissions(): void
     {
@@ -119,7 +120,7 @@ class SystemFieldsTraitTest extends TestCase
     /**
      * filterSystemFields: rank
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+     * @see StoreFilter::filterSystemFields()
      */
     public function test_filter_system_fields_for_rank(): void
     {
@@ -142,7 +143,7 @@ class SystemFieldsTraitTest extends TestCase
     /**
      * filterSystemFields: size
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterSystemFields()
+     * @see StoreFilter::filterSystemFields()
      */
     public function test_filter_system_fields_for_size(): void
     {

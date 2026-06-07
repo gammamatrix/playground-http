@@ -7,21 +7,22 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter;
 
+use Playground\Http\Requests\Concerns\StoreFilter;
 use Playground\Http\Requests\StoreRequest;
 use Tests\Unit\Playground\Http\TestCase;
 
 /**
  * \Tests\Unit\Playground\Http\Requests\Concerns\StoreFilter\PhoneTraitTest
  *
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
- * @see \Playground\Http\Requests\Concerns\StoreFilter::filterBits()
+ * @see StoreFilter::filterBits()
+ * @see StoreFilter::filterBits()
  */
 class PhoneTraitTest extends TestCase
 {
     /**
      * filterPhone
      *
-     * @see \Playground\Http\Requests\Concerns\StoreFilter::filterPhone()
+     * @see StoreFilter::filterPhone()
      */
     public function test_filter_phone(): void
     {
